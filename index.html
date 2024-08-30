@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>booking</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travelix Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+
+		<!-- Top Bar -->
+
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row">
+						<div class="phone">Phone no.:+91 9141985297</div>
+						<div class="social">
+							<ul class="social_list">
+								<li class="social_list_item"><a href="https://in.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li class="social_list_item"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li class="social_list_item"><a href="https://twitter.com/login"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li class="social_list_item"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="social_list_item"><a href="https://in.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="user_box ml-auto">
+							<div class="user_box_login user_box_link"><a href="signin.html">login</a></div>
+							<div class="user_box_register user_box_link"><a href="signin.html">register</a></div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+		<!-- Main Navigation -->
+
+		<nav class="main_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start" style="justify-content: space-between !important;">
+						<div class="logo_container">
+							<div class="logo"><a href="#"><img src="images/logo.png" alt="">SPST Bus Bookings</a></div>
+						</div>
+						<div class="main_nav_container ml-auto">
+							<ul class="main_nav_list">
+								<li class="main_nav_item"><a href="#">home</a></li>
+								<li class="main_nav_item"><a href="about.html">about us</a></li>
+								<li class="main_nav_item"><a href="offers.html">offers</a></li>
+								
+								<li class="main_nav_item"><a href="contact.html">contact</a></li>
+							</ul>
+						</div>
+						<!-- <div class="content_search ml-lg-0 ml-auto">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="17px" height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+								<g>
+									<g>
+										<g>
+											<path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+											s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+											C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+											M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+											c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z"/>
+										</g>
+									</g>
+									<g>
+										<g>
+											<path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+											c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+											C-2.019,484.77-2.019,497.865,6.057,505.942z"/>
+										</g>
+									</g>
+								</g>
+							</svg>
+						</div> -->
+
+						<form id="search_form" class="search_form bez_1">
+							<input type="search" class="search_content_input bez_1">
+						</form>
+
+						<div class="hamburger">
+							<i class="fa fa-bars trans_200"></i>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</nav>
+
+	</header>
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<div class="logo menu_logo"><a href="#"><img src="imagas/logo.png" alt=""></a></div>
+			<ul>
+				<li class="menu_item"><a href="#">home</a></li>
+				<li class="menu_item"><a href="about.html">about us</a></li>
+				<li class="menu_item"><a href="offers.html">offers</a></li>
+				
+				<li class="menu_item"><a href="contact.html">contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		
+		<!-- Home Slider -->
+
+		<div class="home_slider_container">
+			
+			<div class="owl-carousel owl-theme home_slider">
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<!-- Image by https://unsplash.com/@anikindimitry -->
+					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Travel</h1>
+							<h1>Bharat</h1>
+							<div class="button home_slider_button">
+								<div class="button_bcg"></div>
+								<a href="#search">Book Now<span></span><span></span><span></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Travel</h1>
+							<h1>Bharat</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#search">Book Now<span></span><span></span><span></span></a></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Travel</h1>
+							<h1>Bharat</h1>
+							<div class="button home_slider_button"><div class="button_bcg"></div><a href="#search">Book Now<span></span><span></span><span></span></a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Home Slider Nav - Prev -->
+			<div class="home_slider_nav home_slider_prev">
+				<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+					<defs>
+						<linearGradient id='home_grad_prev'>
+							<stop offset='0%' stop-color='#fa9e1b'/>
+							<stop offset='100%' stop-color='#8d4fff'/>
+						</linearGradient>
+					</defs>
+					<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+					M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+					C22.545,2,26,5.541,26,9.909V23.091z"/>
+					<polygon class="nav_arrow" fill="#F3F6F9" points="15.044,22.222 16.377,20.888 12.374,16.885 16.377,12.882 15.044,11.55 9.708,16.885 11.04,18.219 
+					11.042,18.219 "/>
+				</svg>
+			</div>
+			
+			<!-- Home Slider Nav - Next -->
+			<div class="home_slider_nav home_slider_next">
+				<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+					<defs>
+						<linearGradient id='home_grad_next'>
+							<stop offset='0%' stop-color='#fa9e1b'/>
+							<stop offset='100%' stop-color='#8d4fff'/>
+						</linearGradient>
+					</defs>
+				<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+				M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+				C22.545,2,26,5.541,26,9.909V23.091z"/>
+				<polygon class="nav_arrow" fill="#F3F6F9" points="13.044,11.551 11.71,12.885 15.714,16.888 11.71,20.891 13.044,22.224 18.379,16.888 17.048,15.554 
+				17.046,15.554 "/>
+				</svg>
+			</div>
+
+			<!-- Home Slider Dots -->
+
+			<div class="home_slider_dots">
+				<ul id="home_slider_custom_dots" class="home_slider_custom_dots">
+					<li class="home_slider_custom_dot active"><div></div>01.</li>
+					<li class="home_slider_custom_dot"><div></div>02.</li>
+					<li class="home_slider_custom_dot"><div></div>03.</li>
+				</ul>
+			</div>
+			
+		</div>
+
+	</div>
+
+	<!-- Search -->
+
+	<div id="search" class="search">
+		
+
+		<!-- Search Contents -->
+		
+		<div class="container fill_height">
+			<div class="row fill_height">
+				<div class="col fill_height">
+
+					<!-- Search Tabs -->
+
+					
+
+					<div class="search_panel active">
+						<form action="./api/search_results.php" method="post" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Destination</div>
+								<input type="text" name="destination" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Board On Place</div>
+								<input type="text" name="check_in" class="check_in search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Date</div>
+								<input type="date" name="check_out" class="check_out search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Buses</div>
+								<select name="adults" id="adults_1" class="dropdown_item_select search_input">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+							<!-- <div class="search_item">
+								<div>children</div>
+								<select name="children" id="children_1" class="dropdown_item_select search_input">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div> -->
+							<button type="submit" class="button search_button">search<span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					
+					<div class="search_panel">
+						<form action="#" id="search_form_4" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Destination</div>
+								<input type="text" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Board On Place</div>
+								<input type="text" class="check_in search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Date</div>
+								<input type="date" class="check_out search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>adults</div>
+								<select name="adults" id="adults_4" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<div class="search_item">
+								<div>children</div>
+								<select name="children" id="children_4" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<button class="button search_button">search<span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<form action="#" id="search_form_5" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Destination</div>
+								<input type="text" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Board On Place</div>
+								<input type="text" class="check_in search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Date</div>
+								<input type="date" class="check_out search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>adults</div>
+								<select name="adults" id="adults_5" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<!-- <div class="search_item">
+								<div>children</div>
+								<select name="children" id="children_5" class="dropdown_item_select search_input">
+									<option>0</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div> -->
+							<button class="button search_button">search<span></span><span></span><span></span></button>
+						</form>
+					</div>
+
+					<!-- Search Panel -->
+
+					<div class="search_panel">
+						<form action="#" id="search_form_6" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+							<div class="search_item">
+								<div>Destination</div>
+								<input type="text" class="destination search_input" required="required">
+							</div>
+							<div class="search_item">
+								<div>Board on Place</div>
+								<input type="text" class="check_in search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Data</div>
+								<input type="Data" class="check_out search_input" placeholder="">
+							</div>
+							<div class="search_item">
+								<div>Buses</div>
+								<select name="adults" id="adults_6" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div>
+							<!-- <div class="search_item">
+								<div>children</div>
+								<select name="children" id="children_6" class="dropdown_item_select search_input">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+							</div> -->
+							<button class="button search_button">search<span></span><span></span><span></span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Intro -->
+	
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="intro_title text-center">We have the best buses</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="intro_text text-center">
+						<p>The beauty of a bus ride is that it brings together people from all walks of life. The bus is a great equalizer, everyone sits next to each other regardless of their status or background. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row intro_items">
+
+				<!-- Intro Item -->
+
+				<div class="col-lg-4 intro_col">
+					<div class="intro_item">
+						<div class="intro_item_overlay"></div>
+						<!-- Image by https://unsplash.com/@dnevozhai -->
+						<div class="intro_item_background" style="background-image:url(images/volvo.jpg)"></div>
+						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
+							<div class="intro_date">Volvo</div>
+							
+							<div class="intro_center text-center">
+								
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Intro Item -->
+
+				<div class="col-lg-4 intro_col">
+					<div class="intro_item">
+						<div class="intro_item_overlay"></div>
+						<!-- Image by https://unsplash.com/@hellolightbulb -->
+						<div class="intro_item_background" style="background-image:url(images/tata.jpg)"></div>
+						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
+							<div class="intro_date">TATA</div>
+							
+							<div class="intro_center text-center">
+					
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Intro Item -->
+
+				<div class="col-lg-4 intro_col">
+					<div class="intro_item">
+						<div class="intro_item_overlay"></div>
+						<!-- Image by https://unsplash.com/@willianjusten -->
+						<div class="intro_item_background" style="background-image:url(images/ak.JPG)"></div>
+						<div class="intro_item_content d-flex flex-column align-items-center justify-content-center">
+							<div class="intro_date">Ashok Leyland</div>
+							
+							<div class="intro_center text-center">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="cta">
+		<!-- Image by https://unsplash.com/@thanni -->
+		<div class="cta_background" style="background-image:url(images/cta.jpg)"></div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				
+					
+							
+						</div>
+			</div>
+		</div>
+
+						<!-- CTA Slider Nav - Prev -->
+						<div class="cta_slider_nav cta_slider_prev">
+							<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='cta_grad_prev'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#8d4fff'/>
+									</linearGradient>
+								</defs>
+								<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+								M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+								C22.545,2,26,5.541,26,9.909V23.091z"/>
+								<polygon class="nav_arrow" fill="#F3F6F9" points="15.044,22.222 16.377,20.888 12.374,16.885 16.377,12.882 15.044,11.55 9.708,16.885 11.04,18.219 
+								11.042,18.219 "/>
+							</svg>
+						</div>
+						
+						<!-- CTA Slider Nav - Next -->
+						<div class="cta_slider_nav cta_slider_next">
+							<svg version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='cta_grad_next'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#8d4fff'/>
+									</linearGradient>
+								</defs>
+							<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+							M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+							C22.545,2,26,5.541,26,9.909V23.091z"/>
+							<polygon class="nav_arrow" fill="#F3F6F9" points="13.044,11.551 11.71,12.885 15.714,16.888 11.71,20.891 13.044,22.224 18.379,16.888 17.048,15.554 
+							17.046,15.554 "/>
+							</svg>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+					
+	</div>
+	<div class="cta">
+		<!-- Image by https://unsplash.com/@thanni -->
+		<div class="cta_background" style="background-image:url(images/cta.jpg)"></div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				
+					
+							
+						</div>
+			</div>
+		</div>
+
+	<!-- Offers -->
+
+	<div class="offers">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="section_title">the best offers </h2>
+				</div>
+			</div>
+			<div class="row offers_items">
+
+				<!-- Offers Item -->
+				<div class="col-lg-6 offers_col">
+					<div class="offers_item">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="offers_image_container">
+									<!-- Image by https://unsplash.com/@kensuarez -->
+									<div class="offers_image_background" style="background-image:url(images/goa.jpg)"></div>
+									<div class="offer_name"><a href="#">Goa</a></div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="offers_content">
+									<div class="offers_price">₹10000<span></span></div>
+									<div class="rating_r rating_r_4 offers_rating">
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+									</div>
+									<p class="offers_text">Goa is a tiny emeralds land with its natural scenic beauty, attractive beaches and temples, famous for its architecture, feast and festivals and hospitable people with a rich culture.
+									</p>
+									<div class="offers_icons">
+										<ul class="offers_icons_list">
+											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/compass.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/bicycle.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
+										</ul>
+									</div>
+									<div class="offers_link"><a href="offers.html">read more</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Offers Item -->
+				<div class="col-lg-6 offers_col">
+					<div class="offers_item">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="offers_image_container">
+									<!-- Image by Egzon Bytyqi -->
+									<div class="offers_image_background" style="background-image:url(images/jaipur.jpg)"></div>
+									<div class="offer_name"><a href="#">Rajasthan</a></div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="offers_content">
+									<div class="offers_price">₹40000<span></span></div>
+									<div class="rating_r rating_r_4 offers_rating">
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+									</div>
+									<p class="offers_text">Rajasthan known for its rich cultural heritage and historical significance, including many Rajput-era forts, palaces, and monuments. Some of its famous cities include Jaipur (the capital), Jodhpur, Udaipur, Jaisalmer, and Bikaner..</p>
+									<div class="offers_icons">
+										<ul class="offers_icons_list">
+											<li class="offers_icons_item"><img src="images/post.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/compass.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/bicycle.png" alt=""></li>
+											<li class="offers_icons_item"><img src="images/sailboat.png" alt=""></li>
+										</ul>
+									</div>
+									<div class="offers_link"><a href="offers.html">read more</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+
+	<!-- Testimonials -->
+
+	<div class="testimonials">
+		<div class="test_border"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="section_title">what our clients say about us</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					
+					<!-- Testimonials Slider -->
+
+					<div class="test_slider_container">
+						<div class="owl-carousel owl-theme test_slider">
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/itachi2.jpg" alt="https://unsplash.com/@anniegray"></div>
+									<div class="test_icon"><img src="images/backpack.png" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Prithwin B U </U></div>
+												<div class="test_date">August 01, 2023</div>
+											</div>
+											<div class="test_quote_title">" Best journey ever "</div>
+											<p class="test_quote_text">My most enjoyable travel experience was a trip to the Goa. I had never been there before and it was an amazing experience! The beaches were beautiful, the people were friendly, and the food was delicious. I especially enjoyed snorkeling in crystal clear waters filled with colorful fish and coral reefs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/jiraya.jpg" alt="https://unsplash.com/@tschax"></div>
+									<div class="test_icon"><img src="images/island_t.png" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Jiraya</div>
+												<div class="test_date">November 11, 2023</div>
+											</div>
+											<div class="test_quote_title">" Best experience "</div>
+											<p class="test_quote_text">Traveling through Rajasthan is a completely unique experience. It's unlike any other destination in the world and is a must-see for anyone who loves culture and history. From the vibrant colors of Jaipur to the rugged panorama of the Thar Desert, you'll find something special at every turn</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/madara.jpg" alt="https://unsplash.com/@seefromthesky"></div>
+									<div class="test_icon"><img src="images/kayak.png" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Prathyush Naik</div>
+												<div class="test_date">May 24, 2023</div>
+											</div>
+											<div class="test_quote_title">" Very good experience of my travel "</div>
+											<p class="test_quote_text">I had gone to a small trip to Mumbai.Here I'm going to share my experiences with you.Basically, whenever I travel, there will be someone accompanying me.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/naruto.jpg" alt=""></div>
+									<div class="test_icon"><img src="images/island_t.png" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">Ramesh Prabhu</div>
+												<div class="test_date">June 06, 20123</div>
+											</div>
+											<div class="test_quote_title">" Best holliday trip "</div>
+											<p class="test_quote_text"> A trip to Bangalore is always a memorable one. Visitors from various places of the country and abroad would attract you from the busy Majestic</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							
+
+							<!-- Testimonial Item -->
+							<div class="owl-item">
+								<div class="test_item">
+									<div class="test_image"><img src="images/tsunade.jpg" alt=""></div>
+									<div class="test_icon"><img src="images/kayak.png" alt=""></div>
+									<div class="test_content_container">
+										<div class="test_content">
+											<div class="test_item_info">
+												<div class="test_name">carla smith</div>
+												<div class="test_date">May 24, 2017</div>
+											</div>
+											<div class="test_quote_title">" Best holliday ever "</div>
+											<p class="test_quote_text">Beautiful tile work, ornate pillars, carved teak doors, and chairs made entirely of glass were the highlights of the palace. This location was the seat of the Wadiyar dynasty which ruled over the Kingdom of Mysore for nearly 200 years.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Testimonials Slider Nav - Prev -->
+						<div class="test_slider_nav test_slider_prev">
+							<svg version="1.1" id="Layer_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='test_grad_prev'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#8d4fff'/>
+									</linearGradient>
+								</defs>
+								<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+								M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+								C22.545,2,26,5.541,26,9.909V23.091z"/>
+								<polygon class="nav_arrow" fill="#F3F6F9" points="15.044,22.222 16.377,20.888 12.374,16.885 16.377,12.882 15.044,11.55 9.708,16.885 11.04,18.219 
+								11.042,18.219 "/>
+							</svg>
+						</div>
+						
+						<!-- Testimonials Slider Nav - Next -->
+						<div class="test_slider_nav test_slider_next">
+							<svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="28px" height="33px" viewBox="0 0 28 33" enable-background="new 0 0 28 33" xml:space="preserve">
+								<defs>
+									<linearGradient id='test_grad_next'>
+										<stop offset='0%' stop-color='#fa9e1b'/>
+										<stop offset='100%' stop-color='#8d4fff'/>
+									</linearGradient>
+								</defs>
+							<path class="nav_path" fill="#F3F6F9" d="M19,0H9C4.029,0,0,4.029,0,9v15c0,4.971,4.029,9,9,9h10c4.97,0,9-4.029,9-9V9C28,4.029,23.97,0,19,0z
+							M26,23.091C26,27.459,22.545,31,18.285,31H9.714C5.454,31,2,27.459,2,23.091V9.909C2,5.541,5.454,2,9.714,2h8.571
+							C22.545,2,26,5.541,26,9.909V23.091z"/>
+							<polygon class="nav_arrow" fill="#F3F6F9" points="13.044,11.551 11.71,12.885 15.714,16.888 11.71,20.891 13.044,22.224 18.379,16.888 17.048,15.554 
+							17.046,15.554 "/>
+							</svg>
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="trending">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="section_title">Popular places</h2>
+				</div>
+			</div>
+			<div class="row trending_container">
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/mysore.jpg" alt="https://unsplash.com/@fransaraco"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Mysore</a></div>
+							<div class="trending_price">Karnataka</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/badrinath.jpg" alt="https://unsplash.com/@grovemade"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Badrinath</a></div>
+							<div class="trending_price">Uttarakhand</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/sun.jpg" alt="https://unsplash.com/@jbriscoe"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Sun Temple</a></div>
+							<div class="trending_price">Odisha</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/eswara.jpg" alt="https://unsplash.com/@oowgnuj"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Brihadeeswara Temple</a></div>
+							<div class="trending_price">Tamilnadu</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/somnath.jpg" alt="https://unsplash.com/@mindaugas"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Somnath Temple</a></div>
+							<div class="trending_price">Gujarat</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+                <!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/kedarnath.jpg" alt="https://unsplash.com/@rktkn"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Kedarnath</a></div>
+							<div class="trending_price">Uttarakhand</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+				
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/devi.png" alt="https://unsplash.com/@rktkn"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Vaishno Devi Temple</a></div>
+							<div class="trending_price">Janmmu & Kashmir</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trending Item -->
+				<div class="col-lg-3 col-sm-6">
+					<div class="trending_item clearfix">
+						<div class="trending_image"><img src="images/rama.jpg" alt="https://unsplash.com/@thoughtcatalog"></div>
+						<div class="trending_content">
+							<div class="trending_title"><a href="#">Ramanathaswamy Temple</a></div>
+							<div class="trending_price">Tamilnadu</div>
+							<div class="trending_location"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+		
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+    function redirectToSearchPanel() {
+        // Assuming the search panel is the first one (index 0)
+        showSearchPanel(0);
+    }
+
+    function showSearchPanel(index) {
+        // Get all search panels
+        var searchPanels = document.querySelectorAll('.search_panel');
+
+        // Hide all search panels
+        searchPanels.forEach(function(panel) {
+            panel.classList.remove('active');
+        });
+
+        // Show the selected search panel
+        searchPanels[index].classList.add('active');
+    }
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sidebar</title>
+
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+        <!--css
+        <link rel="stylesheet" href="./assets/styles/style.css">-->
+
+        <!--js
+        <script src="./assets/scripts/index.js" defer></script>-->
+    
+    <!--fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" >
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="onlinepayment.js" defer></script>
+    <link rel="stylesheet" href="onlinepayment.css">
+
+  </head>
+    <body>
+        
+        <!--aside bar-->
+        <nav class="navbar">            
+            <div class="navbar-container">
+                <!--logo div-->
+                <div class="navbar-logo-div">
+                    <a class="navbar-logo-link" href="#">
+                       <i ></i>
+                    </a>
+                    <button class="navbar-toggler"><i class='fas fa-solid fa-bars'></i></button>
+                </div>
+
+                <!--search input-->
+                <input type="search" name="search" placeholder="Search..."
+                 class="navbar-search" id="search">
+              
+                <i id='icon-search' class="fas fa-regular fa-magnifying-glass"></i>
+
+                <!--item list-->
+                <ul class="menu-list">   
+                    <li class="menu-item">                        
+                        <a class="menu-link" href="index.html"> 
+                            <i></i>
+                            <span class="menu-link-text">HOME</span>                            
+                        </a>
+                    </li>
+                    <li class="menu-item">                        
+                        <a class="menu-link" href="contact.html">
+                            <i ></i>
+                            <span class="menu-link-text">CONTACT</span>    
+                        </a>
+                    </li>
+                    <li class="menu-item">                        
+                        <a class="menu-link" class="menu-link" href="about.html">
+                            <i class=""></i>
+                            <span class="menu-link-text">ABOUT</span>    
+                        </a>
+                    </li>
+                    <li class="menu-item">                            
+                        <a class="menu-link" href="offers.html">
+                            <i></i>
+                            <span class="menu-link-text">OFFERS</span>    
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+           
+        <!--dashboard-->
+        <div class="outercontainer">
+            <center>
+        <div class="container">
+            <div class="center">Center Content</div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <h3 class="text-center">Payment Details</h3>
+                                <img class="img-responsive cc-img" src="https://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <label>CARD NUMBER</label>
+                                            <div class="input-group">
+                                                <input type="tel" class="form-control" placeholder="Valid Card Number" />
+                                                <span class="input-group-addon"><span class="fa fa-credit-card"></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-7 col-md-7">
+                                        <div class="form-group">
+                                            <label><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                            <input type="tel" class="form-control" placeholder="MM / YY" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-5 col-md-5 pull-right">
+                                        <div class="form-group">
+                                            <label>CV CODE</label>
+                                            <input type="tel" class="form-control" placeholder="CVC" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <label>CARD OWNER</label>
+                                            <input type="text" class="form-control" placeholder="Card Owner Names" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <button class="btn btn-warning btn-lg btn-block">Process payment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    </div>
+    
+    </div>
+    </div>
+        
+        <style>
+            .cc-img {
+                margin: 0 auto;
+            }
+        </style>
+    </body>
+</html>

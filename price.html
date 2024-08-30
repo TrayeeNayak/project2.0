@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Add a style block for CSS -->
+    <style>
+        body {
+            background-image: url();
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 25;
+        }
+
+        .contact_form_section {
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact_form_container {
+            background-color: #760606;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact_title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .input_field,
+        .text_field {
+            width: 25%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #1a054f;
+        }
+
+        .form_submit_button {
+            background-color: #a0cf13;
+            color: #2d0c6b;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Add Font Awesome CSS link */
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-BMOUxC8p81GJLqz87iMtH6etbPKZjsAlSf3o2wFd3uue2+jjKHf9V/8iYe2dsHJZ" crossorigin="anonymous">
+    </style>
+</head>
+<body>
+
+    <div class="contact_form_section">
+        <div class="contact_form_container">
+            
+            <div class="contact_title text-center"><h2><center>Join now </center></h2></div>
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact_form" class="contact_form text-center">
+                <input type="hidden" name="access_key" value="2fc54047-6d3c-41a6-bf58-ab2f221c3a2e">
+               <center> <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required."><br/></center>
+                <center><input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required."><br/></center>
+
+               <center> <textarea id="contact_form_message" class="text_field contact_form_message" name="Transaction id" rows="4" placeholder="Transaction id" required="required" data-error="Please, write the Transaction id."></textarea></center>
+               <center><button type="submit" id="form_submit_button" class="form_submit_button button trans_200">Send Message</button></center><br>
+                <!-- Social media icons -->
+                <a href="https://www.youtube.com/watch?v=nWRxEXvvmGQ"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/formedia/fitness/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://in.pinterest.com/search/pins/?q=fitness&rs"><i class="fab fa-pinterest-p"></i></a>
+            </form>
+          <center><img src="images/GooglePay_QR.png" alt="Payment Image" style="max-width: 20%;" /></center>
+        </div>
+    </div>
+   
+        
+</body>
+</html>
